@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+header {
+  position: fixed;
+  width: 100vw;
+}
+ul {
+  display: flex;
+  height: 25px;
+  width: 95%;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.imgLogo {
+  height: 25px;
+}
+.img-avatar {
+  height: 25px;
+}
+
+video {
+  width: 100vw;
+  min-height: 80vh;
+}
+
+.capa {
+  position: absolute;
+  bottom: 45%;
+  left: 5%;
+  z-index: 3;
+}
+.capa-titulo {
+  color: white;
+  font-size: 80px;
+}
+.capa-descricao {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  width: 50%;
+  font-size: 20px;
+}
+.link-assistir {
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.link-informacoes {
+  background-color: rgb(255, 255, 255, 0.35);
+  color: black;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.img-carousel {
+  height: 100px;
+}
+.posicao-carousel {
+  justify-items: center;
+  position: absolute;
+  margin-left: 300px;
+}
+.titulo-carrossel {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-left: 109px;
+}
+.botao-som{
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 4;
+  
+}
